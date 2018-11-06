@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+}
+.oa_flowdiv{
+	overflow: hidden;
+	width:450px;
+	height:325px;
+	position: relative;
+}
+.oaflow_ul{
+	position: relative;
+}
+.oaflow_ul img{
+	width: 72px;
+	height: 72px;
+	display: block;
+}
+.oa_swiper{
+	height: 292px;
+	width:100px;
+	margin-right:20px;
+	float: left;
+	position: relative;
+}
+.oa_swiper li{
+	width:100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.flowcon {
+	width: 80px;
+	overflow: hidden;
+	border-left: 1px solid #3fb07c;
+	margin-left: 36px;
+	padding-left: 10px;
+}
+.flow_name{
+	color: #000000;
+	font-size: 18px;
+}
+.flow_time{
+	color: #666666;
+	font-size: 12px;
+}
+.flow_status{
+	color: #3fb07c;
+	font-size:14px;
+}
+.oaflowoa{
+	width: 15px;
+	height: 15px;
+	background: url(../img/oa_flowicon.png) no-repeat;
+	margin-left: 29px;
+}
+.oaflow_ul li:nth-child(even) .oaflow_container{
+	position: absolute;
+    top: 133px;
+}
+.oaflow_line{
+	height: 0px;
+	border-top:1px dashed #999999 ;
+	width: 100%;
+	position: absolute;
+	top: 140px;
+}
+.oa_lefticon,.oa_righticon{
+	display: inline-block;
+	width: 11px;
+	height:22px;
+	position: absolute;
+	cursor: pointer;
+	display: none;
+}
+.oa_lefticon{
+	background: url(../img/oaflow_left.png) no-repeat;
+	left: 0px;
+    top: 128px;
+}
+.oa_righticon{
+	background: url(../img/oaflow_right.png) no-repeat;
+	right: 0;
+    top: 130px;
+}
